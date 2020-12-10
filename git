@@ -10,7 +10,7 @@
 2. git commit -m "first commit"
 3. git push 
 
-======etc================
+======More================
  git checkout -b testfeature
  git add .
  git commit -m "a"
