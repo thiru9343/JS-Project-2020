@@ -21,7 +21,7 @@ b=200;
 b
 200
 let a;
-VM289:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+// VM289:1 Uncaught SyntaxError: Identifier 'a' has already been declared
 var a;
 undefined
 a=18
@@ -29,13 +29,13 @@ a=18
 a
 18
 const a;
-VM419:1 Uncaught SyntaxError: Missing initializer in const declaration
+// VM419:1 Uncaught SyntaxError: Missing initializer in const declaration
 a=30;
 30
 a
 30
 const z;
-VM496:1 Uncaught SyntaxError: Missing initializer in const declaration
+// VM496:1 Uncaught SyntaxError: Missing initializer in const declaration
 z=100
 100
 z
@@ -45,10 +45,31 @@ undefined
 l
 10
 const l;
-VM683:1 Uncaught SyntaxError: Missing initializer in const declaration
+// VM683:1 Uncaught SyntaxError: Missing initializer in const declaration
 const l=100;
-VM721:1 Uncaught SyntaxError: Identifier 'l' has already been declared
+// VM721:1 Uncaught SyntaxError: Identifier 'l' has already been declared
 l=19;
-VM748:1 Uncaught TypeError: Assignment to constant variable.
-    at <anonymous>:1:2
-(anonymous) @ VM748:1
+// VM748:1 Uncaught TypeError: Assignment to constant variable.
+    
+
+
+let a=10;
+// VM1211:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+let l=11;
+undefined
+l
+11
+let l=12;
+undefined
+l
+12
+const l;
+// VM1354:1 Uncaught SyntaxError: Missing initializer in const declaration
+const l=20;
+// VM1396:1 Uncaught SyntaxError: Identifier 'l' has already been declared
+const g=25;
+undefined
+const g=26;
+// VM1504:1 Uncaught SyntaxError: Identifier 'g' has already been declared
+let g=31;
+// VM1554:1 Uncaught SyntaxError: Identifier 'g' has already been declared

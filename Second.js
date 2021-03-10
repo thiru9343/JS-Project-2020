@@ -1,6 +1,6 @@
-PEMDAS (Parentheses, Exponents, 
-    Multiplication, Division (from left to right), 
-    Addition and Subtraction (from left to right))
+// PEMDAS (Parentheses, Exponents, 
+//     Multiplication, Division (from left to right), 
+//     Addition and Subtraction (from left to right))
 
 
     var a = 4
@@ -25,6 +25,31 @@ a%b
 1
 
 
+var n="Thiru"
+undefined
+n
+"Thiru"
+var m='Manu'
+undefined
+m
+"Manu"
+n+m
+"ThiruManu"
+m=' Manu';
+" Manu"
+n+m
+"Thiru Manu"
+m=100
+100
+n+m
+"Thiru100"
+m+n
+"100Thiru"
+n=200
+200
+n+m
+300
+
 var a = "hi"
 undefined
 var b = " JavaScript"
@@ -36,7 +61,7 @@ NaN
 a*b
 NaN
 a/b
-NaN(not a number)
+// NaN(not a number)
 var a = "hi"
 undefined
 var b = 10
@@ -47,10 +72,10 @@ b+a
 "10hi"
 
 
-string+string = string
-string+number = string
-number+string = string
-number+number = number
+// string+string = string
+// string+number = string
+// number+string = string
+// number+number = number
 
 
 "10"+10+"10"
@@ -105,5 +130,6 @@ a+c
 c-c
 NaN
 
-true 1 
-false = 00
+// true = 1 
+// false = 0
+// + sybol is a concatenation
