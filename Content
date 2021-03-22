@@ -13,10 +13,6 @@ Ecma 7
 > Date
 > switch
 > localstorage
-
-
-
-//////
 > array
 > loops
 > String literals
@@ -26,6 +22,9 @@ Ecma 7
     > maps,filter
 > Clousers
 > regex
+
+//////
+
 > Hoisting
 > object 
 > this 
