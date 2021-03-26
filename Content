@@ -22,13 +22,14 @@ Ecma 7
     > maps,filter
 > Clousers
 > regex
-
-//////
-
 > Hoisting
+> object
 > object 
 > this 
 > Transpile
+//////
+
+
 > Es6
     > classes
     > import export
