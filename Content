@@ -27,14 +27,12 @@ Ecma 7
 > object 
 > this 
 > Transpile
-//////
-
-
 > Es6
     > classes
     > import export
 
 > Prototypes
+//////////
 > DoM
 > Geolocation
 > Form validation
