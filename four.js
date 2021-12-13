@@ -113,15 +113,14 @@ a.replace(/javascript/g,'JS')
 
 var city = "  Helsinki . "
 undefined
-city.repeat(/ /g,'')
-""
+
 city.replace(/ /g,'')
 "Helsinki."
 var b = a
 undefined
 b
 "Hi javascript i am doing javascript"
-b.replace(/ /g,'')
+b.replace(/ /g,'') // g here stands for global
 "Hijavascriptiamdoingjavascript"
 city.replace(/i/g,'a')
 "  Helsanka . "
@@ -149,8 +148,10 @@ a.slice(2,5)
 Slice(start,end)
 >if first value is -ve than output is null
 >if first positive and second -ve and remove from both direction
+
 Substring(start,end)
 > -ve value is ignored
+
 Substr(start,length)
 > if only one value and that is -ve it start from backward
 */
@@ -186,3 +187,46 @@ a.substr(-4)
 "ript"
 a.substr(-4,-1)
 ""
+// ===============
+//Thiru
+
+var city= "Hyderabd";
+undefined
+city
+'Hyderabd'
+city.slice(2)
+'derabd'
+city.slice(1,5)
+'yder'
+city.slice(1,-4)
+'yde'
+city.slice(-2)
+'bd'
+city.slice(-2, 5)
+''
+city.substring()
+'Hyderabd'
+city.substring(2)
+'derabd'
+city.substring(1,5)
+'yder'
+city.substring(1,-4)
+'H'
+city.substring(1)
+'yderabd'
+city.substring(1,-5)
+'H'
+city.substring(1,-1)
+'H'
+city.substring(-1,-1)
+''
+city.slice(-1,-1)
+''
+city.substr();
+'Hyderabd'
+city.substr(2)
+'derabd'
+city.substr(2.-3);
+'d'
+city.substr(-3,-2)
+''

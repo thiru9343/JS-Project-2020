@@ -17,7 +17,7 @@ Math.random()*1000000
 Math.random()*1000000
 718642.2883104997
 
-Math.floor(10.1)
+
 Math.floor(10.1)
 10
 Math.floor(10.9)
