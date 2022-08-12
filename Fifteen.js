@@ -1,3 +1,29 @@
+function greet(){
+    console.log("Hello World!");
+}
+greet();
+
+///////
+function greet(name){ //name is parameter to the greet function
+    console.log("Hello" +name);
+}
+greet(' Thiru');// Thiru is the argument, greet(); is calling the function
+
+/////
+
+function add(a,b){
+    console.log(a+b)
+}
+add(1,2)
+//3
+
+function add(a,b){
+    return(a+b);
+}
+add(1,2);
+//3
+
+
 var a=10;
 var b=20;
 a+b;
@@ -54,3 +80,7 @@ var isEven = (userInput) => {
     return output;
 }
 isEven(10);
+
+() => {
+
+}

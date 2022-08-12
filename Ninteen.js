@@ -1,14 +1,6 @@
-var a =10       //global scope
-
-/*function add(a){
-    var b = 20      //local scope
-    return a+b
-}
-*/
-
-var a =10
+var a =10 //global scope
 function add(a){
-    var b = 20      //local scope
+    var b = 20  //local scope
     return a+b
 }
 console.log(a);

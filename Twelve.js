@@ -42,7 +42,24 @@ city
 city.shift()
 "Nice"
 //////////////
+/*
+slice():
+1. .slice(2)- its removes the 2 elements from beginning of the array but, it wont effect actual array
+2. .slice(2,5)- return values from index 2 to 5 but, it won't effect actual array
 
+splice():
+1. .splice(2,0,'India')- It will a new element India at index 2
+2. .splice(2,0,'Hongkong','Huag')- it will add a new elements Hongkong, Huag at index 2
+3. .splice(3,2)- it will return element(s) from index 3 to 2 elements after that index
+4. .splice(2,1,'AbuDhabi','Brahin') 
+EX:     city
+    (4) ['Nice', 'NewYork', 'mdp', 'Paris']0: "Nice"1: "NewYork"2: "AbuDhabi"3: "Brahin"4: "Paris"length: 5[[Prototype]]: Array(0)
+    city.splice(2,1,'AbuDhabi','Brahin')
+    ['mdp']
+    city
+    (5) ['Nice', 'NewYork', 'AbuDhabi', 'Brahin', 'Paris']
+
+*/
 var city = ["Nice", "NewYork", "Delhi", "London", "Amsterdam", "Helsinki", "Paris"]
 undefined
 city.slice(1)
@@ -95,8 +112,6 @@ a.split('')
 (6) ["L", "o", "n", "d", "o", "n"]
 
 
-var a =[1,2,3]
-var b = ['a','b','c']
 
 var a =[1,2,3]
 var b = ['a','b','c']

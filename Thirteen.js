@@ -6,6 +6,12 @@
 //6. map ==>
 //7. filter ==> 
 
+/*
+A "For" Loop is used to repeat a specific block of code a known number of times. 
+For example, if we want to check the grade of every student in the class, 
+we loop from 1 to that number. 
+When the number of times is not known before hand, we use a "While" loop.
+*/
 var i;
 for (i=1;i<=5;i++){
     console.log(i);
@@ -78,6 +84,16 @@ while(i<3){
 }
 
 //do-while//
+/*
+This kind of loop is most often used when the test doesn't make any sense until 
+the statements have been performed at least once. For most purposes, 
+the while loop is preferable. For example, the user can be asked for a 
+password by: String input; do { System.
+
+- it will print at lease one
+- while loop first check the condition and print
+- do while first print then it will check the condition
+*/
 var i=0;
 do{
     console.log(i);
@@ -127,11 +143,13 @@ var i = 0;
 do{
     console.log(city[i])
     i++
-}
-while(i<city.length)
+}while(i<city.length)
 
 
 var city = ["Paris", "Nice", "NewYork", "London","Dubai", "Delhi", "Amsterdam"];
 for(cities of city){
     console.log(cities);
+}
+
+
 }

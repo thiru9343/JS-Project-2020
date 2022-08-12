@@ -1,6 +1,6 @@
 // Regex or Regular expressions
 // Any kind of validation will be achieved by Regex
-// In every language we use Regex for validations
+// In every programming language we use Regex for validations
 
 /* Regex always start with ^(cap symbol) and always ends with $ (dollar) symbol
 therefore, ^$
@@ -12,9 +12,11 @@ therefore, ^$
 
 ^([a-z])$ // it validates only 1 letter that is string only and small letters only
 
-^([a-z]+)$ // it validates unlimited lenth of a word and small letters only
+^[0-9]+$   // it will validate any number digits, only numbers
 
-^([a-zA-Z]+)$ // it validates unlimited lenth of a word and small&caps letters only
+^([a-z]+)$ // it validates unlimited length of a word and small letters only
+
+^([a-zA-Z]+)$ // it validates unlimited length of a word and small&caps letters only
 
 ^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,5})$
 var a="thirupathi9343@gmail.com"
